@@ -134,38 +134,7 @@ The detection rules were verified by comparing alerts with raw logs and packet-l
 
 To make the project more credible on GitHub, include sanitized evidence files such as:
 
-```txt
-evidence/
-├── siem-alerts/
-│   ├── reconnaissance-alert.png
-│   ├── failed-authentication-alert.png
-│   └── brute-force-correlation-alert.png
-├── endpoint-logs/
-│   ├── short-session-sample.json
-│   └── failed-login-sample.json
-├── ids-alerts/
-│   └── traffic-anomaly-alert.png
-└── packet-captures/
-    ├── repeated-session-traffic.png
-    └── traffic-spike.png
-```
-
-## Suggested Repository Structure
-
-```txt
-project-name/
-├── README.md
-├── rules/
-│   ├── siem-custom-rules.xml
-│   └── ids-local-rules.rules
-├── evidence/
-│   ├── siem-alerts/
-│   ├── endpoint-logs/
-│   ├── ids-alerts/
-│   └── packet-captures/
-└── docs/
-    └── validation-notes.md
-```
+Ids anomaly in wireshark and siem alert
 
 ## Skills Demonstrated
 
